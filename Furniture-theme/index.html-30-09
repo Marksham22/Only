@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Shopify Theme Elsner | Furniture</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="./assets/images/favicon.png" type="image/png">
+	<link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="./assets/css/all.css" />
+	<link rel="stylesheet" href="./assets/css/style.css" />
+	<link rel="stylesheet" href="./assets/css/responsive.css" />
+</head>
+
+<body>
+	<div class="main-wrapper">
+		<div class="top-bar">
+			<div class="container">	
+				<div class="row">		
+					<div class="col-lg-2 language-wrap">
+						<div class="dropdown language-select">
+			                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+			                Language : Eng
+			                <svg xmlns="http://www.w3.org/2000/svg" class="crt_pk" fill="#fff" width="10" height="7" viewBox="0 0 13.473 7.703"><defs></defs><path class="a" d="M12.926,16.628l5.094-5.1a.959.959,0,0,1,1.36,0,.971.971,0,0,1,0,1.364l-5.772,5.776a.961.961,0,0,1-1.328.028L6.468,12.9a.963.963,0,1,1,1.36-1.364Z" transform="translate(-6.188 -11.246)"></path></svg>
+			                </button>
+			                <div class="dropdown-menu">
+			                  <a class="dropdown-item" href="#">Hindi</a>
+			                  <a class="dropdown-item" href="#">English</a>
+			                </div>
+			              </div>
+						<div class="dropdown language-select currency">
+			                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+			                 Currency : USD
+			                <svg xmlns="http://www.w3.org/2000/svg" class="crt_pk" fill="#fff" width="10" height="7" viewBox="0 0 13.473 7.703"><defs></defs><path class="a" d="M12.926,16.628l5.094-5.1a.959.959,0,0,1,1.36,0,.971.971,0,0,1,0,1.364l-5.772,5.776a.961.961,0,0,1-1.328.028L6.468,12.9a.963.963,0,1,1,1.36-1.364Z" transform="translate(-6.188 -11.246)"></path></svg>
+			                </button>
+			                <div class="dropdown-menu">
+			                  <a class="dropdown-item" href="#">INR</a>
+			                  <a class="dropdown-item" href="#">Dollar</a>
+			                </div>
+			              </div>
+					</div>
+					<div class="col-lg-8">
+						<div class="annoucement-bar">
+							<p>Free economy shipping on domestic orders over $50</p>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<header class="site-header main_header">
+			<div class="header-logo">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-3">
+							<div class="search-wrapper">
+                                <form id="search-form" role="search" method="get" class="search-form">
+                                    <div class="search-form-box">
+                                        <!-- <span class="search-label">What Can Help you Find ?</span> -->
+                                        <input class="search-input" id="sesrch-id" placeholder="What Can Help you Find ?" name="s" value="" type="text" autocomplete="off">
+                                        <button type="submit" class="search-button">
+                                            <i class="fas fa-search"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-8">
+							<a href="#" class="logo">
+								<h3>ELSNER SMARTY</h3>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-3 col-2">
+							<div class="split split-right">
+								<ul class="nav-items header-toolbar">
+									<li class="whishlist">
+										<a href="#">
+											<img src="./assets/images/wishlist.svg" alt="">
+										</a>
+									</li>
+									<li class="user">
+										<a href="#">
+											<img src="./assets/images/user.svg" alt="">
+										</a>
+									</li>
+									<li class="cart">
+										<a href="#">
+											<img src="./assets/images/cart.svg" alt="">
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-lg" id="navbar">
+                <div class="container header">
+                    <!-- <button class="navbar-toggler" type="button" onclick="myFunction(this)"> -->
+                    	<div id="mobile-side-drawer" class="navbar-toggler menu_icon" type="button" data-toggle="collapse" data-target=".header-nav">
+	                        <div class="bar1"></div>
+	                        <div class="bar2"></div>
+	                        <div class="bar3"></div>
+	                    </div>
+                    <!-- <a class="navbar-brand" href="#">
+                        <img src="assets/images/logo.png" alt="">
+                    </a> -->
+                    <!-- <div class="nav-mobile-right">
+                        <ul>
+                            <li><a href="#"><img src="assets/images/wishlist.svg" alt=""></a></li>
+                            <li><a href="#"><img src="assets/images/cart.svg" alt=""></a></li>
+                        </ul>
+                    </div> -->
+                    <div class="header-nav collapse navbar-collapse justify-content-center" id="navchange">
+                        <ul class="navbar-nav">
+                            <li><a class="active" aria-current="page" href="#">Home</a></li>
+                            <li class="child has-child">
+                                <a href="#"> About</a> 
+                                <!-- <div class="childmenu">
+                                    <span class="close"><i class="fas fa-chevron-left"></i> back</span>
+									<ul>
+										<li><a href="#">Parent 2 child 1</a></li>
+										<li><a href="#">Parent 2 child 2</a></li>
+										<li><a href="#">Parent 2 child 3</a></li>
+										<li><a href="#">Parent 2 child 4</a></li>
+										<li><a href="#">Parent 2 child 5</a></li>						
+									</ul>
+								</div> -->
+                            </li>
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Shop</a></li>
+                        </ul>
+                        <!-- <div class="nav-right">
+                            <ul>
+                                <li class="nav-search"><a href="javaScript:void(0)"><img src="assets/images/search.svg" alt=""></a></li>
+                                <li class="nav-user"><a href="#"><img src="assets/images/user.svg" alt=""></a></li>
+                                <li class="nav-wishlist"><a href="#"><img src="assets/images/wishlist.svg" alt=""></a></li>
+                                <li class="nav-cart"><a href="#"><img src="assets/images/cart.svg" alt=""></a></li>
+                                <li class="nav-setting"><a href="#"><img src="assets/images/setting.svg" alt=""></a></li>
+                            </ul>
+                            
+                            <div class="search-wrapper">
+                                <button title="Close" type="button" class="search-close">×</button>
+                                <form id="search-form" role="search" method="get" class="search-form">
+                                    <div class="search-form-box">
+                                        <span class="search-label">What are you looking for?</span>
+                                        <input class="search-input" id="sesrch-id" placeholder="Enter your keywords..." name="s" value="" type="text" autocomplete="off">
+                                        <button type="submit" class="search-button">
+                                            <i class="fas fa-search"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </nav>
+		</header>
+        <!-- header End -->
+		
+		<div class="site-wrapper">
+			<section class="hero-banner">
+				<div class="slider-bag">
+					<div class="banner-slider owl-carousel owl-theme prevnext">
+							<div class="slide-item">
+								<div class="banner-left">
+									<div class="banner-img">
+										<img src="./assets/images/banner.png" alt="">
+									</div>
+									<div class="banner-text">
+										<h1>Fbure Design Furniture</h1>
+										<p>Felis risus blandit nibh consequat nulla adipiscing aliquam gravida suspendisse lobortis at laoreet scelerisque.</p>
+										<a href="#" class="filed-btn bg-btn">EXPLORE</a>
+									</div>
+								</div>
+							</div>
+							<div class="slide-item">
+								<div class="banner-left">
+									<div class="banner-img">
+										<img src="./assets/images/banner.png" alt="">
+									</div>
+									<div class="banner-text">
+										<h1>Fbure Design Furniture</h1>
+										<p>Felis risus blandit nibh consequat nulla adipiscing aliquam gravida suspendisse lobortis at laoreet scelerisque.</p>
+										<a href="#" class="filed-btn bg-btn">EXPLORE</a>
+									</div>
+								</div>
+							</div>
+							<div class="slide-item">
+								<div class="banner-left">
+									<div class="banner-img">
+										<img src="./assets/images/banner.png" alt="">
+									</div>
+									<div class="banner-text">
+										<h1>Fbure Design Furniture</h1>
+										<p>Felis risus blandit nibh consequat nulla adipiscing aliquam gravida suspendisse lobortis at laoreet scelerisque.</p>
+										<a href="#" class="filed-btn bg-btn">EXPLORE</a>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="post-images">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<img src="./assets/images/empty-living-room.png">
+						</div>
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-6 mb-15">
+									<img src="./assets/images/empty-living-room.png">
+								</div>
+								<div class="col-md-6 mb-15">
+									<img src="./assets/images/empty-living-room.png">
+								</div>
+								<div class="col-md-6">
+									<img src="./assets/images/empty-living-room.png">
+								</div>
+								<div class="col-md-6">
+									<img src="./assets/images/empty-living-room.png">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="treding-product">
+				<div class="container">
+					<div class="heading_wrap">
+						<h2 class="heading"><span>Trending Product</span></h2>
+						<p>Felis risus blandit nibh consequat nulla adipiscing aliquam.</p>
+					</div>
+
+					<div class="slider_wrap treding-slider owl-carousel owl-theme prevnext2">
+						<div class="item">
+							<div class="popular_collect2">
+								<div class="collection_img">
+									<img src="./assets/images/treding-product/treding-product1.png">
+								</div>
+								<div class="collection_desc">
+									<h4>Cum cum Accent Chair</h4>
+									<span>A2 Packages</span>
+									<p class="price">$150.10</p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="popular_collect2">
+								<div class="collection_img">
+									<img src="./assets/images/treding-product/treding-product1.png">
+								</div>
+								<div class="collection_desc">
+									<h4>Cum cum Accent Chair</h4>
+									<span>A2 Packages</span>
+									<p class="price">$150.10</p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="popular_collect2">
+								<div class="collection_img">
+									<img src="./assets/images/treding-product/treding-product1.png">
+								</div>
+								<div class="collection_desc">
+									<h4>Cum cum Accent Chair</h4>
+									<span>A2 Packages</span>
+									<p class="price">$150.10</p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="popular_collect2">
+								<div class="collection_img">
+									<img src="./assets/images/treding-product/treding-product1.png">
+								</div>
+								<div class="collection_desc">
+									<h4>Cum cum Accent Chair</h4>
+									<span>A2 Packages</span>
+									<p class="price">$150.10</p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="popular_collect2">
+								<div class="collection_img">
+									<img src="./assets/images/treding-product/treding-product1.png">
+								</div>
+								<div class="collection_desc">
+									<h4>Cum cum Accent Chair</h4>
+									<span>A2 Packages</span>
+									<p class="price">$150.10</p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="popular_collect2">
+								<div class="collection_img">
+									<img src="./assets/images/treding-product/treding-product1.png">
+								</div>
+								<div class="collection_desc">
+									<h4>Cum cum Accent Chair</h4>
+									<span>A2 Packages</span>
+									<p class="price">$150.10</p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="popular_collect2">
+								<div class="collection_img">
+									<img src="./assets/images/treding-product/treding-product1.png">
+								</div>
+								<div class="collection_desc">
+									<h4>Cum cum Accent Chair</h4>
+									<span>A2 Packages</span>
+									<p class="price">$150.10</p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="popular_collect2">
+								<div class="collection_img">
+									<img src="./assets/images/treding-product/treding-product1.png">
+								</div>
+								<div class="collection_desc">
+									<h4>Cum cum Accent Chair</h4>
+									<span>A2 Packages</span>
+									<p class="price">$150.10</p>
+								</div>
+							</div>
+						</div>
+				</div>
+			</section>	
+
+			<section class="post-images post-images-two">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<img src="./assets/images/wooden-table.png">
+						</div>
+						<div class="col-md-6">
+							<img src="./assets/images/wooden-table.png">
+						</div> 
+					</div>
+				</div>
+			</section>	
+
+			<section class="treding-product our-categories">
+				<div class="container">
+					<div class="heading_wrap">
+						<h2 class="heading"><span>Our Categories</span></h2>
+						<p>Felis risus blandit nibh consequat nulla adipiscing aliquam.</p>
+					</div>
+
+					<div class="slider_wrap categories-slider owl-carousel owl-theme prevnext2">
+						<div class="item">
+							<div class="popular_collect2">
+								<div class="collection_img">
+									<img src="./assets/images/treding-product/treding-product1.png">
+								</div>
+								<div class="collection_desc">
+									<h4>Cum cum Accent Chair</h4>
+									<span>A2 Packages</span>
+									<p class="price">$150.10</p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="popular_collect2">
+								<div class="collection_img">
+									<img src="./assets/images/treding-product/treding-product1.png">
+								</div>
+								<div class="collection_desc">
+									<h4>Cum cum Accent Chair</h4>
+									<span>A2 Packages</span>
+									<p class="price">$150.10</p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="popular_collect2">
+								<div class="collection_img">
+									<img src="./assets/images/treding-product/treding-product1.png">
+								</div>
+								<div class="collection_desc">
+									<h4>Cum cum Accent Chair</h4>
+									<span>A2 Packages</span>
+									<p class="price">$150.10</p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="popular_collect2">
+								<div class="collection_img">
+									<img src="./assets/images/treding-product/treding-product1.png">
+								</div>
+								<div class="collection_desc">
+									<h4>Cum cum Accent Chair</h4>
+									<span>A2 Packages</span>
+									<p class="price">$150.10</p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="popular_collect2">
+								<div class="collection_img">
+									<img src="./assets/images/treding-product/treding-product1.png">
+								</div>
+								<div class="collection_desc">
+									<h4>Cum cum Accent Chair</h4>
+									<span>A2 Packages</span>
+									<p class="price">$150.10</p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="popular_collect2">
+								<div class="collection_img">
+									<img src="./assets/images/treding-product/treding-product1.png">
+								</div>
+								<div class="collection_desc">
+									<h4>Cum cum Accent Chair</h4>
+									<span>A2 Packages</span>
+									<p class="price">$150.10</p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="popular_collect2">
+								<div class="collection_img">
+									<img src="./assets/images/treding-product/treding-product1.png">
+								</div>
+								<div class="collection_desc">
+									<h4>Cum cum Accent Chair</h4>
+									<span>A2 Packages</span>
+									<p class="price">$150.10</p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="popular_collect2">
+								<div class="collection_img">
+									<img src="./assets/images/treding-product/treding-product1.png">
+								</div>
+								<div class="collection_desc">
+									<h4>Cum cum Accent Chair</h4>
+									<span>A2 Packages</span>
+									<p class="price">$150.10</p>
+								</div>
+							</div>
+						</div>
+				</div>
+			</section>		
+			
+			<section class="treding-product testimonial_review">
+				<div class="container">
+					<div class="heading_wrap">
+						<h2 class="heading"><span>Our Categories</span></h2>
+						<p>Felis risus blandit nibh consequat nulla adipiscing aliquam.</p>
+					</div> 
+					<div class="testimonial_slider">
+						<div class="slider_wrap owl-carousel owl-theme testimonial prevnext2">
+							<div class="item_review">
+								<img src="./assets/images/quote.svg" class="quote" alt="">
+								<h5>Brandon Ross</h5>
+								<h6>Netherlands</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis risus mi. Ut placerat quam lectus. Curabitur dictum velit non lacus ornare tempor. Nullam quis augue in leo aliquet malesuada sit amet eget eros. Sed laoreet posuere velit sit amet varius. Nulla eget purus non erat fringilla sodales vel a nulla. </p>
+							</div>
+							<div class="item_review">
+								<img src="./assets/images/quote.svg" class="quote" alt="">
+								<h5>Brandon Ross</h5>
+								<h6>Netherlands</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis risus mi. Ut placerat quam lectus. Curabitur dictum velit non lacus ornare tempor. Nullam quis augue in leo aliquet malesuada sit amet eget eros. Sed laoreet posuere velit sit amet varius. Nulla eget purus non erat fringilla sodales vel a nulla. </p>
+							</div>
+							<div class="item_review">
+								<img src="./assets/images/quote.svg" class="quote" alt="">
+								<h5>Brandon Ross</h5>
+								<h6>Netherlands</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis risus mi. Ut placerat quam lectus. Curabitur dictum velit non lacus ornare tempor. Nullam quis augue in leo aliquet malesuada sit amet eget eros. Sed laoreet posuere velit sit amet varius. Nulla eget purus non erat fringilla sodales vel a nulla. </p>
+							</div>
+							<div class="item_review">
+								<img src="./assets/images/quote.svg" class="quote" alt="">
+								<h5>Brandon Ross</h5>
+								<h6>Netherlands</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis risus mi. Ut placerat quam lectus. Curabitur dictum velit non lacus ornare tempor. Nullam quis augue in leo aliquet malesuada sit amet eget eros. Sed laoreet posuere velit sit amet varius. Nulla eget purus non erat fringilla sodales vel a nulla. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="insta-feed">
+				<div class="container">
+					<div class="section-title">
+						<div class="row">
+							<div class="col-md-9">
+								<h2 class="heading"><span>@bagstation</span></h2>
+							</div>
+						</div>
+					</div>
+					<div class="masonry-section">
+						<div class="masonary-grid" id="container">
+							 <!-- DEFAULT DIV  -->
+							 <div class="grid-sizer"></div>
+							 <div class="gutter-sizer"></div> 
+							 <!-- END DEFAULT DIV  -->
+							<div class="item width-33">
+								<a href="#">
+									<div class="img-wrapper">
+										<img src="./assets/images/instafeed/insta1.png" alt="masonry image">
+										<span class="insta-counts">
+											<i class="fab fa-instagram"></i>
+										</span>
+									</div>
+								</a>
+							</div>
+							<div class="item width-50">
+								<a href="#">
+									<div class="img-wrapper">
+										<img src="./assets/images/instafeed/insta22.png" alt="masonry image">
+										<span class="insta-counts">
+											<i class="fab fa-instagram"></i>
+										</span>
+									</div>
+								</a>
+							</div>
+							<div class="item width-33">
+								<a href="#">
+									<div class="img-wrapper">
+										<img src="./assets/images/instafeed/insta3.png" alt="masonry image">
+										<span class="insta-counts">
+											<i class="fab fa-instagram"></i>
+										</span>
+									</div>
+								</a>
+							</div>
+							<div class="item width-50">
+								<a href="#">
+									<div class="img-wrapper">
+										<img src="./assets/images/instafeed/insta4.png" alt="masonry image">
+										<span class="insta-counts">
+											<i class="fab fa-instagram"></i>
+										</span>
+									</div>
+								</a>
+							</div>
+							<div class="item width-33">
+								<a href="#">
+									<div class="img-wrapper">
+										<img src="./assets/images/instafeed/insta5.png" alt="masonry image">
+										<span class="insta-counts">
+											<i class="fab fa-instagram"></i>
+										</span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<!-- Footer -->
+		<footer class="site-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5 col-md-8 col-12 newsletter-wrap">
+						<h2 class="heading footer-heading">newsletter</h2>
+						<div class="footer-newsletter">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis risus mi. Ut placerat quam lectus. </p>
+							<form class="newsletter">
+								<div class="form-group">
+									<input type="email" name="Email" placeholder="Email address">
+									<button class="btn primary-btn white form-btn">Subscribe</button>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-12 footer-menu-col">
+						<h6 class="heading footer-heading">About bag station <span class="menu-dropdown"><i class="fas fa-angle-right"></i></span></h6>
+						<div class="footer-content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis risus mi. Ut placerat quam lectus. Curabitur dictum velit non lacus ornare tempor. Nullam quis augue in leo aliquet malesuada sit amet eget eros. </p>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-4 col-12 footer-menu-col">
+						<h6 class="heading footer-heading">Site Links <span class="menu-dropdown"><i class="fas fa-angle-right"></i></span></h6>
+						<ul class="foooter-menu">
+							<li><a href="#">About us</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Term of Use</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2 col-md-4 col-12 footer-menu-col social-media">
+						<h6 class="heading footer-heading">Social <span class="menu-dropdown"><i class="fas fa-angle-right"></i></span></h6>
+						<ul class="foooter-menu">
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Instagram</a></li>
+							<li><a href="#">Pinterest</a></li>
+							<li><a href="#">Twitter</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="./assets/js/popper.min.js"></script>
+	<script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./assets/js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="./assets/js/jquery.masonry.min.js"></script>
+	<script type="text/javascript" src="./assets/js/imagesloaded.pkgd.js"></script>
+	<script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
+
+</html>

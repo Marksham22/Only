@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Group_20" data-name="Group 20" transform="translate(0.307)">
+    <rect id="Rectangle_24" data-name="Rectangle 24" width="40" height="40" transform="translate(-0.307)" fill="none"/>
+    <g id="Icon_feather-headphones" data-name="Icon feather-headphones" transform="translate(10 10.004)">
+      <path id="Path_10" data-name="Path 10" d="M4.5,21V14.4a10,10,0,0,1,20,0V21" transform="translate(-4.5 -4.5)" fill="none" stroke="#484848" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_11" data-name="Path 11" d="M24.5,26.831a2.279,2.279,0,0,1-2.222,2.333H21.167a2.279,2.279,0,0,1-2.222-2.333v-3.5A2.279,2.279,0,0,1,21.167,21H24.5Zm-20,0a2.279,2.279,0,0,0,2.222,2.333H7.833a2.279,2.279,0,0,0,2.222-2.333v-3.5A2.279,2.279,0,0,0,7.833,21H4.5Z" transform="translate(-4.5 -9.164)" fill="none" stroke="#484848" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
